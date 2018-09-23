@@ -1,0 +1,45 @@
+.blueStripe
+{
+    background-color: blue;
+}
+p.colorText{
+  font-size: 18;
+  background-color: red;
+  color: white;
+  font-family: arial;
+  text-align: center;
+}
+
+.center {
+    display: block;
+    position:absolute;
+    bottom: 0;
+    left: 37.5%;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 25%;
+}
+.pics
+{
+height: 1%;
+background-image: url(pics/background.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+vertical-align: bottom;
+}
+
+.text
+{
+height: 70%;
+background-image: url(pics/background.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.regularFont{
+  font-size: 15;
+}
+.regularFont:hover{
+  font-size: 30;
+}
